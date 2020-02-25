@@ -1,175 +1,73 @@
-
-<div class="container">
-  <nav class="navbar navbar-inverse">
-    <div class="navbar-header">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+<div class="header-container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><span class="header-title font-weight-bolder">PawsOnMyWayHome</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">My Store</a>
-    </div>
-    
-    <div class="collapse navbar-collapse js-navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <span class="caret"></span></a>              
-                <ul class="dropdown-menu mega-dropdown-menu">
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Men Collection</li>                            
-                            <div id="menCollection" class="carousel slide" data-ride="carousel">
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
-                                    <h4><small>Summer dress floral prints</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
-                                </div><!-- End Item -->
-                                <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
-                                    <h4><small>Gold sandals with shiny touch</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
-                                </div><!-- End Item -->
-                                <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                                    <h4><small>Denin jacket stamped</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
-                                </div><!-- End Item -->                                
-                              </div><!-- End Carousel Inner -->
-                              <!-- Controls -->
-                              <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="right carousel-control" href="#menCollection" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                            </div><!-- /.carousel -->
-                            <li class="divider"></li>
-                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Features</li>
-                            <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-                            <li><a href="#">Four Columns Grid</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-                            <li><a href="#">Google Fonts</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Plus</li>
-                            <li><a href="#">Navbar Inverse</a></li>
-                            <li><a href="#">Pull Right Elements</a></li>
-                            <li><a href="#">Coloured Headers</a></li>                            
-                            <li><a href="#">Primary Buttons & Default</a></li>                          
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-                            <li><a href="#">Calls to action</a></li>
-                            <li><a href="#">Custom Fonts</a></li>
-                            <li><a href="#">Slide down on Hover</a></li>                         
-                        </ul>
-                    </li>
-                </ul>               
-            </li>
-            <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <span class="caret"></span></a>                
-                <ul class="dropdown-menu mega-dropdown-menu">
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Features</li>
-                            <li><a href="#">Auto Carousel</a></li>
-                            <li><a href="#">Carousel Control</a></li>
-                            <li><a href="#">Left & Right Navigation</a></li>
-                            <li><a href="#">Four Columns Grid</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Fonts</li>
-                            <li><a href="#">Glyphicon</a></li>
-                            <li><a href="#">Google Fonts</a></li>
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Plus</li>
-                            <li><a href="#">Navbar Inverse</a></li>
-                            <li><a href="#">Pull Right Elements</a></li>
-                            <li><a href="#">Coloured Headers</a></li>                            
-                            <li><a href="#">Primary Buttons & Default</a></li>                          
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Much more</li>
-                            <li><a href="#">Easy to Customize</a></li>
-                            <li><a href="#">Calls to action</a></li>
-                            <li><a href="#">Custom Fonts</a></li>
-                            <li><a href="#">Slide down on Hover</a></li>                         
-                        </ul>
-                    </li>
-                    <li class="col-sm-3">
-                        <ul>
-                            <li class="dropdown-header">Women Collection</li>                            
-                            <div id="womenCollection" class="carousel slide" data-ride="carousel">
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
-                                    <h4><small>Summer dress floral prints</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
-                                </div><!-- End Item -->
-                                <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
-                                    <h4><small>Gold sandals with shiny touch</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
-                                </div><!-- End Item -->
-                                <div class="item">
-                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                                    <h4><small>Denin jacket stamped</small></h4>                                        
-                                    <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
-                                </div><!-- End Item -->                                
-                              </div><!-- End Carousel Inner -->
-                              <!-- Controls -->
-                              <a class="left carousel-control" href="#womenCollection" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="right carousel-control" href="#womenCollection" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                              </a>
-                            </div><!-- /.carousel -->
-                            <li class="divider"></li>
-                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                        </ul>
-                    </li>
-                </ul>               
-            </li>
-            <li><a href="#">Store locator</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-        <li><a href="#">My cart (0) items</a></li>
-      </ul>
-    </div><!-- /.nav-collapse -->
-  </nav>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown header-mega-dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu header-mega-dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <ul class="header-dropdown-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Hall Of Fame (2018)</a></li>                            
+                                    <li><a href="#">Events</a></li>  
+                                    <li><span class="small">- No Dog Left Behind</span></li>
+                                    <li><span class="small">- Mixer 2018</span></li>
+                                    <li><span class="small">- 2019 Gold Tournament</span></li>
+                                                            
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="header-dropdown-menu">
+                                    <li><a href="#">Fundraising</a></li>
+                                    <li><a href="#">Adoptable Animals</a></li>
+                                    <li><a href="#">How to Adopt</a></li>                            
+                                    <li><a href="#">How can i help?</a></li>                          
+                                    <li><a href="#">Fostering</a></li>
+                                    <li><a href="#">Surrendering you pet</a></li>
+                                    <li><a href="#">Volunteer Sign-Up</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul class="header-dropdown-menu">
+                                    <li><a href="#">Sponsor and Animal</a></li>
+                                    <li><a href="#">Warm Your Heart Successes</a></li>
+                                    <li><a href="#">Apply to Adopt Here</a></li>                            
+                                    <li><a href="#">Join our Foster Team!</a></li>                          
+                                    <li><a href="#">Never Forgotten</a></li>
+                                    <li><a href="#">Meet The Board</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Start Fundraising <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link">Search</a> 
+                <a href="#" class="nav-item nav-link">Log in</a> 
+                <div class="header-login-separator">| </div>
+                <a href="#" class="nav-item nav-link">Sign up</a>
+            </div>
+        </div>
+    </nav>
 </div>

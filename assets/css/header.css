@@ -1,0 +1,42 @@
+.header-container{
+	width: 80%;
+	margin: auto;
+}
+
+.header-title {
+	color: #bd0fe0;
+}
+
+.header-login-separator {
+	margin: auto;
+}
+.header-mega-dropdown {
+  position: static !important;
+}
+
+.header-mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: blueviolet !important;
+    border: 1px solid crimson !important;
+}
+
+.header-dropdown-menu {
+  list-style: none !important;
+}
+.header-dropdown-menu > li >a{
+	color: #d5d8d8;
+}
+
+.header-dropdown-menu > li > span{
+	padding-left: 30px;
+	color: #FFFF;
+}
+
+.header-dropdown-menu > li >a:hover,
+.header-dropdown-menu > li >a:focus {
+  text-decoration: none;
+  color: #FFFF;
+}

@@ -179,19 +179,3 @@ body {
 }
 
 
-/*FOOTER*/
-footer {
-	margin-top: 5%;
-}
-footer .top-footer p, footer .top-footer button {
-	text-align: center;
-}
-
-footer .top-footer button, footer .top-footer img {
-	margin: 0 auto;
-    display: block;
-}
-footer .bottom-footer .footer-title {
-	border-bottom: 2px solid #b218d2;
-	padding-bottom: 3px;
-}
