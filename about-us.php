@@ -51,7 +51,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">John Marshall</h6>
+				        <h4 class="team-title">John Marshall</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
@@ -74,7 +74,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">Steve Roberts</h6>
+				        <h4 class="team-title">Steve Roberts</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
@@ -97,7 +97,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">Michael Cartney</h6>
+				        <h4 class="team-title">Michael Cartney</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
@@ -124,7 +124,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">John Marshall</h6>
+				        <h4 class="team-title">John Marshall</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
@@ -147,7 +147,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">Steve Roberts</h6>
+				        <h4 class="team-title">Steve Roberts</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
@@ -170,7 +170,7 @@
 				            </div>
 				          </div>
 				        </div>
-				        <h6 class="team-title">Michael Cartney</h6>
+				        <h4 class="team-title">Michael Cartney</h4>
 				      </div>
 				    </div>
 				    <!-- end team member -->
