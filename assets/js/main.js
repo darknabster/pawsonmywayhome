@@ -1,4 +1,3 @@
-//NAVIGATION
 $(document).ready(function(){
     $(".dropdown").hover(            
         function() {
