@@ -15,8 +15,8 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <ul class="header-dropdown-menu">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="./">Home</a></li>
+                                    <li><a href="./about-us.php">About Us</a></li>
                                     <li><a href="#">Hall Of Fame (2018)</a></li>                            
                                     <li><a href="#">Events</a></li>  
                                     <li><span class="small">- No Dog Left Behind</span></li>

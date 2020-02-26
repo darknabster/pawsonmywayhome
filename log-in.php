@@ -11,7 +11,7 @@
     <div class="login-main-container">
       <div class="login-header-container">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#"><span class="header-title font-weight-bolder">PawsOnMyWayHome</span></a>
+          <a class="navbar-brand" href="./"><span class="header-title font-weight-bolder">PawsOnMyWayHome</span></a>
         </nav>
         <hr style="margin:0" />
       </div>

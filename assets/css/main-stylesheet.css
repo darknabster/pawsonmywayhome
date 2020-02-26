@@ -2,7 +2,13 @@
 body {
   font-family: 'Open Sans', 'sans-serif';
 }
-
+h1, h2, h3, h4, h5, h6, a {
+  color: #c60de7;
+}
+.divider {
+  border-top: 1px solid #c1c1c1;
+  margin: 5% 0;
+}
 /*.mega-dropdown {
   position: static !important;
 }
@@ -11,8 +17,6 @@ body {
     width: 100%;
     box-shadow: none;
     -webkit-box-shadow: none;
-}*/
-/*.mega-dropdown-menu > li > ul {
   padding: 0;
   margin: 0;
 }
@@ -33,7 +37,6 @@ body {
   color: #ff3546;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
-}*/
 
 .carousel-control {
   width: 30px;
@@ -54,7 +57,305 @@ body {
   color: #333;
   border: 1px solid #ddd;
 }
+*/
 
+/*MAIN SLIDER*/
+section .carousel-contents {
+	position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+section .carousel-contents h1 {
+	font-weight: 800;
+}
+section .carousel-contents h1, section .carousel-contents p {
+	text-align: center;
+	color: white;
+}
+.carousel .carousel-item {
+    width: 100%;
+    height: 640px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url(/pawsonmywayhome/assets/images/corgi-and-terrier-running.jpg);
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+    background-image: url(/pawsonmywayhome/assets/images/dog.jpg);
+}
+
+.carousel .carousel-item:last-of-type {
+    background-image: url(/pawsonmywayhome/assets/images/group-of-dogs.jpg);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/*carousel 2*/
+.inner {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.scroll-container {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: auto;
+  height: 400px;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  font-size: 0px;
+  margin-bottom: 50px;
+}
+
+.scroll-container .scroll-section {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border: solid 1px #ccc;
+  margin-bottom: 50px;
+}
+
+.scroll-container.diff-size {
+  scroll-snap-destination: 0% 50%;
+  padding: 0px 15px;
+  text-align: center;
+  width: auto;
+  height: 450px;
+  max-width: 100%;
+  background: #00000038;
+  border: solid 1px #ccc0;
+  
+}
+.scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+ 
+  .scroll-container::-webkit-scrollbar-track {
+      background-color: #ebebeb;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      background: #6d6d6d; 
+  }
+.scroll-container.diff-size .scroll-section {
+  /*width: auto;
+  height: auto;
+  max-width: 100%;*/
+  scroll-snap-coordinate: 0% 50%;
+  margin-bottom: 15px;
+  border: solid 1px #ccc0;
+  background: #eee0;
+  font-size: 16px;
+  color: white;
+}
+.scroll-container.diff-size .scroll-section:first-child {
+  scroll-snap-coordinate: 0% 50%;
+  margin-top: 5%;
+}
+
+.scroll-container.diff-size .scroll-section:last-child {
+  scroll-snap-coordinate: 0% 50%;
+  margin-bottom: 5%;
+}
+
+/*HOMEPAGE*/
+/*MAIN CONTENTS*/
+.featured-title {
+
+}
+.featured-cause {
+	width: 100%;
+  height: 100vh;
+  background-image: url(/pawsonmywayhome/assets/images/featured-cause-bg-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  padding-top: 40px;
+}
+.paws-partnership {
+  padding-top: 40px;
+}
+.paws-partnership h1, .paws-partnership p, .paws-partnership .home-p p {
+	text-align: center;
+}
+.paws-partnership .home-pets-img {
+	width: 100%;
+}
+.featured-cause .container {
+   margin: 0 auto;
+   margin-top: 20px;
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 40%;
+   user-select: none;
+}
+ .featured-cause .container input {
+   display: none;
+}
+ 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 74.25%; /* 4:3 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 100%;
+    overflow: hidden;
+}
+iframe,object,embed,video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ongoing-mission  {
+  margin-top: 40px;
+  height: 100vh;
+}
+.ongoing-mission .ongoing-mission-container, .ongoing-mission .upcoming-event {
+height: 600px;
+}
+.ongoing-mission .ongoing-mission-content, .ongoing-mission .ongoing-mission-video {
+  float: left;
+}
+.ongoing-mission .upcoming-event .upcoming-events-img img {
+  width: 100%;
+}
+.ongoing-mission .upcoming-event .upcoming-events-img, .ongoing-mission .upcoming-event .upcoming-events-contents {
+  float: left;
+}
+.ongoing-mission .upcoming-event .upcoming-events-contents {
+      height: 100%;
+}
+.ongoing-mission .upcoming-event .upcoming-events-contents p {
+  font-size: 30px;
+  color: #464646;
+  line-height: initial;
+}
+.ongoing-mission .upcoming-event .upcoming-events-contents span {
+  font-size: 15px;
+  color: #464646;
+  line-height: initial;
+}
+.ongoing-mission .upcoming-event .upcoming-events-contents h2 {
+  font-weight: 800;
+  font-size: 38px;
+}
+.featured-cause-section .inner h2 {
+  font-weight: 600;
+  color: white;
+}
+.featured-cause .donate-for {
+	background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+}
+.featured-cause .donate-for .adopt-me {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-cause .donate-for .adopt-me .current-amount {
+	color: #bd0fe0;
+	font-size: 36px;
+}
+.featured-cause .donate-for .adopt-me .target-amount {
+	color: #bd0fe0;
+	font-weight: 600;
+}
+.featured-cause .donate-for .featured-cause-buttons {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featured-cause .donate-for .featured-cause-buttons .donate-now-btn {
+	background-color: #bd0fe0;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 17px;
+    border: none;
+    font-weight: 600;
+}
+.featured-cause .donate-for .featured-cause-buttons .share-btn {
+	background-color: #fff;
+    color: #bd0fe0;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 17px;
+    border: 1px solid #000;
+    font-weight: 600;
+}
+
+.featured-cause .donate-for .featured-cause-buttons .adopt-me-btn {
+	background: rgb(254,178,94);
+	background: linear-gradient(90deg, rgba(254,178,94,1) 0%, rgba(245,193,83,1) 100%);
+    color: #5b3c05;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 17px;
+    border: none;
+    font-weight: 600;
+}
+
+.featured-cause .donate-for .featured-cause-buttons .divider {
+    border-top: 1px solid #c7c7c7 !important;
+}
+
+.featured-cause .donate-for, .featured-cause .featured-cause-section {
+  float: left;
+}
+
+.featured-cause .featured-cause-section .featured-social-btns .container button:nth-child(1) {
+  background-color: #3b5999;
+  border: 1px solid #8a999e;
+  padding: 10px 10%;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.featured-cause .featured-cause-section .featured-social-btns .container button:nth-child(2) {
+  background-color: #fff;
+  padding: 10px 10%;
+  color: #525252;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.featured-cause .featured-cause-section .featured-social-btns .container button:nth-child(3) {
+  background-color: #4098fc;
+  border: 1px solid #8a999e;
+  padding: 10px 10%;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.featured-cause h2 {
+  font-weight: 600;
+    color: white;
+}
 /*ABOUT US*/
 .about-content {
 	margin-top: 5%;
@@ -69,6 +370,11 @@ body {
 }
 .about-us-main .about-content h2, .about-us-main .about-content p, .about-us-main .about-content .about-p p {
 	text-align: center;
+}
+.about-us-main .about-content .about-p p {
+	line-height: 1.75em;
+	position: relative;
+	top: 30px;
 }
 
 /* Our Team
@@ -179,4 +485,38 @@ body {
   background-color: #355c7d;
 }
 
+/*FOOTER*/
+footer {
+	margin-top: 5%;
+}
+footer .top-footer p, footer .top-footer button {
+	text-align: center;
+}
 
+footer .top-footer button, footer .top-footer img {
+	margin: 0 auto;
+    display: block;
+}
+footer .bottom-footer .footer-title {
+	border-bottom: 2px solid #b218d2;
+	padding-bottom: 3px;
+	position: relative;
+    bottom: 20px;
+}
+footer .bottom-footer .accept-footer .we-accept {
+	display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+footer .bottom-footer .accept-footer .we-accept img {
+	width: 100%;
+}
+footer .bottom-footer .accept-footer .follow-us .social-media-footer {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer .bottom-footer .accept-footer .follow-us .social-media-footer svg {
+	width: 40px;
+	margin: 0 5px;
+}
