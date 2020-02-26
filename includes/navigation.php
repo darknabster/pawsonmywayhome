@@ -7,7 +7,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown header-mega-dropdown">
+                <li class="nav-item dropdown header-mega-dropdown bg-color">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Menu
                     </a>
@@ -57,17 +57,44 @@
                 </li>
 
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+            
 
             <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link">Search</a> 
-                <a href="#" class="nav-item nav-link">Log in</a> 
+                <li class="nav-item dropdown header-mega-dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Search
+                    </a>
+                    <div class="dropdown-menu header-search-dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="header-search-container">
+                            <form class="form-inline my-2 my-lg-0">
+                                <div class ="header-search-text-container">
+                                    <input class="form-control header-search-text" type="search" placeholder="Search" aria-label="Search">
+                                    
+                                </div>
+                                <div class ="header-search-btn-container">
+                                    <button class="btn btn-header-search" type="submit">Search</button>
+                                </div>
+                                <div class="selectdiv ">
+                                    <label>
+                                          <select>
+                                              <option > Please select </option>
+                                              <option selected>Adoption</option>
+                                              <option>Option 2</option>
+                                              <option>Last long option</option>
+                                          </select>
+                                      </label>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </li> 
+                <a href="log-in.php" class="nav-item nav-link">Log in</a> 
                 <div class="header-login-separator">| </div>
                 <a href="#" class="nav-item nav-link">Sign up</a>
             </div>
         </div>
     </nav>
+    <hr style="margin:0" />
 </div>

@@ -2,7 +2,8 @@
 body {
   font-family: 'Open Sans', 'sans-serif';
 }
-.mega-dropdown {
+
+/*.mega-dropdown {
   position: static !important;
 }
 .mega-dropdown-menu {
@@ -10,8 +11,8 @@ body {
     width: 100%;
     box-shadow: none;
     -webkit-box-shadow: none;
-}
-.mega-dropdown-menu > li > ul {
+}*/
+/*.mega-dropdown-menu > li > ul {
   padding: 0;
   margin: 0;
 }
@@ -32,7 +33,7 @@ body {
   color: #ff3546;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
-}
+}*/
 
 .carousel-control {
   width: 30px;
