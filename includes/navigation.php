@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <ul class="header-dropdown-menu">
-                                    <li><a href="#">Sponsor and Animal</a></li>
+                                    <li><a href="./sponsor-and-animal.php">Sponsor and Animal</a></li>
                                     <li><a href="#">Warm Your Heart Successes</a></li>
                                     <li><a href="#">Apply to Adopt Here</a></li>                            
                                     <li><a href="#">Join our Foster Team!</a></li>                          

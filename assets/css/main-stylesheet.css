@@ -520,3 +520,406 @@ footer .bottom-footer .accept-footer .follow-us .social-media-footer svg {
 	width: 40px;
 	margin: 0 5px;
 }
+
+/*SPONSORS AND ANIMALS*/
+.sponsor-bg {
+  background-image: url(/pawsonmywayhome/assets/images/sponsor-and-animal-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+}
+.sponsor-bg .center-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+}
+.sponsor-bg .center-content h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 4em;
+}
+.sponsor-content {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.sponsor-content h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.sponsor-content h2, .sponsor-content p {
+  text-align: center;
+}
+.sponsor-content .social-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.sponsor-content .social-btns button {
+    width: 15%;
+    padding: 0.75% 0;
+    margin: 0 0.5%;
+    border-radius: 4px;
+}
+.sponsor-content .social-btns .facebook-btns {
+  background-color: #3b5999;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #9396a5;
+}
+.sponsor-content .social-btns .email-btns {
+  background-color: #fff;
+  font-weight: 600;
+  color: #4a4a4a;
+  border-radius: 4px;
+  border: 1px solid #9396a5;
+}
+.sponsor-content .social-btns .twitter-btns {
+  background-color: #4098fc;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #9396a5;
+}
+
+/* Our Team
+-------------------------------------------------------*/
+.sponsor-pets {
+  height: 100%;
+  margin-bottom: 6%;
+}
+.sponsor-pets .our-sponsor .row {
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: 50px !important;
+}
+
+.our-sponsor .sponsor-wrap {
+  padding: 0 40px;
+}
+
+.our-sponsor .container-fluid {
+  padding: 0 50px;
+}
+
+.sponsor-img img {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sponsor-pets,
+.sponsor-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.sponsor-title {
+  margin: 30px 0 7px;
+}
+
+.overlay {
+  background-color: rgba(20,20,20,.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.sponsor-details {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.sponsor-details p {
+  color: #fff;
+}
+
+.sponsor-img:hover .sponsor-details {
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.sponsor-img:hover .overlay {
+  opacity: 1;
+}
+
+.socials a {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.socials i {
+  line-height: 37px;
+  color: #616161;
+  font-size: 14px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.sponsor-details .socials i {
+  color: #fff;
+}
+
+.socials a:hover i {
+  color: #fff;
+  background-color: #355c7d;
+}
+
+/*SPONSOR FORMS*/
+.sponsor-form-main {
+    height: 100vh;
+    margin-bottom: 15%;
+}
+.sponsor-form-main .container {
+  height: 100%;
+}
+.sponsor-form-main .sponsor-form-container .sponsor-form {
+  background-image: url(/pawsonmywayhome/assets/images/sponsor-form-bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.sponsor-form-main .sponsor-form-container {
+  display: block;
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  float: left;
+}
+
+.sponsor-form-main .sponsor-form-container button {
+  width: 100%;
+  background-color: #ffc107;
+  border: none;
+  line-height: 6em;
+}
+
+.sponsor-form-main .sponsor-form-container button span {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+.sponsor-form-main .sponsor-form-container button svg {
+  width: 30px;
+}
+.sponsor-form-main .sponsor-form-container h2 {
+  color: #fff;
+}
+
+.sponsor-form-main .sponsor-form-container ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  height: 100vh
+}
+
+.sponsor-form-main .sponsor-form-container ul li{
+  display: flex;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #9c9c9c;
+  align-items: center;
+}
+.sponsor-form-main .sponsor-form-container ul li .sponsor-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 70px;
+}
+.sponsor-form-main .sponsor-form-container ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .sponsor-label label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 0.85em;
+  padding: 0;
+  margin: 0;
+  line-height: 24px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  color: #ffc107;
+}
+.sponsor-form-main .sponsor-form-container ul li .sponsor-label label span {
+  font-size: 1.85em
+}
+
+.sponsor-form-main .sponsor-form-container ul li .sponsor-label .label-desc {
+  font-size: 0.75em;
+  color: #fff;
+}
+
+.sponsor-form-main .sponsor-form-container ul li:hover label {
+  color: #fbff00;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+
+.sponsor-form-main .sponsor-form-container ul li:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 0;
+  left: 0;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+.sponsor-form-main .sponsor-form-container ul li input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+.sponsor-form-main .sponsor-form-container ul li input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+.sponsor-form-main .sponsor-form-container ul li input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+.sponsor-form-main .sponsor-form-content {
+  float: left;
+  padding-top: 40px;
+  height: 100%;
+}
+.sponsor-form-main .sponsor-form-content h2 {
+  color: #bd0fe0;
+  line-height: 1.45em;
+}
+.sponsor-form-main .sponsor-form-content img {
+  width: 100%;
+}
+
+
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  
+  float: left;
+  min-width: 100%;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor span {
+  color: white;
+  font-size: 0.95em;
+  font-weight: 600;
+}
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor label {
+  width: 100%;
+}
+/* IE11 hide native button (thanks Matt!) */
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor select::-ms-expand {
+display: none;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor:after {
+  content: '>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 40px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  /*left line */
+  
+  position: absolute;
+  pointer-events: none;
+}
+
+.sponsor-form-main .sponsor-form-container ul li .select-sponsor select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+ /* background-color: #ffffff;*/
+  background-image: none;
+  -ms-word-break: normal;
+  word-break: normal;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+>>>>>>> Stashed changes
