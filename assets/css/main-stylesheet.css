@@ -2,6 +2,15 @@
 body {
   font-family: 'Open Sans', 'sans-serif';
 }
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
 h1, h2, h3, h4, h5, h6, a {
   color: #c60de7;
 }
@@ -706,10 +715,7 @@ footer .bottom-footer .accept-footer .follow-us .social-media-footer svg {
 /*SPONSOR FORMS*/
 .sponsor-form-main {
     height: 100vh;
-    margin-bottom: 15%;
-}
-.sponsor-form-main .container {
-  height: 100%;
+    margin-bottom: 5%;
 }
 .sponsor-form-main .sponsor-form-container .sponsor-form {
   background-image: url(/pawsonmywayhome/assets/images/sponsor-form-bg-img.jpg);
@@ -922,4 +928,33 @@ display: none;
   border-left: none;
   border-right: none;
 }
->>>>>>> Stashed changes
+.placeholder {
+  height: 100px;
+}
+
+
+/*Fundraising*/
+.fundraising-banner {
+  background-image: url(/pawsonmywayhome/assets/images/fundraising-banner-img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fundraising-banner .center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fundraising-banner .center-content h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 5em;
+}
+.fundraising-banner .fundraising-btns button {
+
+}
+bd0fe0
