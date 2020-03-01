@@ -1,0 +1,142 @@
+.donation-header-container{
+	display: flex;
+
+}
+
+.navbar {
+	align-items: baseline;
+}
+.navbar-expand-lg{
+	width: 23%
+}
+.navbar-donate-to {
+	width: 60%;
+	margin-top: 75px;
+}
+
+.navbar-donate-to .row {
+	justify-content: center;
+}
+.navbar-user-profile {
+	width: 22%;
+}
+
+.user-profile-icon {
+	height: 30px;
+}
+
+.donate-to-icon {
+	height: 60px;
+	border-radius: 60%;
+}
+
+.navbar-donate-to{
+	display: block;
+}
+
+.btn-donate-logo {
+	width: 203px
+}
+
+.donation-amount-container, .donation-payment-container, 
+.donation-message-container, .donation-success-container {
+	display: none;
+  	width: 50%;
+  	margin: auto;
+}
+
+
+.donation-amount-container.show-container , .donation-payment-container.show-container , 
+.donation-message-container.show-container , .donation-success-container.show-container  {
+	display: block;
+}
+.donation-title {
+	margin: 20px 0 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.btn-donation-amnt, .btn-donation-payment-type {
+	width: 25%;
+    height: 37px;
+    border: 1px solid darkgray;
+    border-radius: 0;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: -4px
+}
+
+.btn-donation-amnt.selected, .btn-donation-payment-type.selected {
+	background-color: #bd0fe0;
+    border-color: #bd0fe0;
+    color: #ffff;
+}
+
+.donation-amount-option-container, .donation-amount-option-payment-container {
+	margin: auto auto 10px auto;
+}
+
+.donation-amount-group {
+	height: 70px;
+	font-size: 50px;
+    color: #bd0fe0;
+}
+
+.donation-amount {
+	width: 60% ! important;
+}
+
+.currency-select-option {
+	height: 70px ! important;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.donation-total-amount {
+	margin-top: 15px;
+}
+
+.donation-amount-option-payment-container {
+	display: flex;
+   	justify-content: center;
+   	margin-bottom: 20px;
+}
+
+.bdonation-percentage {
+	cursor: pointer;
+}
+.donation-payment-logo-container {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.donation-payment-logo {
+	height:30px;
+}
+
+#savePaymentDetails {
+	transform: scale(2);
+	margin: 0 10px 0 5px;
+}
+
+.skip-message-container {
+	margin-top: 10px;
+}
+
+.success-icon-container {
+	display: flex;
+    justify-content: center;
+}
+
+.success-icon {
+	height: 250px;
+}
+
+.donation-success-description {
+	text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
