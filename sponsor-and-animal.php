@@ -303,19 +303,17 @@
                 
                 <div class="check sponsor-amount"></div>
             </li>
-            <li>
-              <div class="select-sponsor">
-                <span>Designation</span>
-                <label>
-                    <select>
-                        <option selected> Select Box </option>
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                        <option>Last long option</option>
-                    </select>
-                </label>
-              </div>
-            </li>
+            <div class="form-group">
+                <label for="Designation" class ="font-weight-bolder">Designation</label>
+               
+                <select class="form-control">
+                    <option selected> Select Box </option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Last long option</option>
+                </select>
+            </div>
+            
             <div class="form-group">
                 <label for="information" class ="font-weight-bolder">Write us a comment</label>
                 <textarea class="form-control" id="yourComment" rows="5" ></textarea>
