@@ -27,6 +27,10 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/log-in.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/donation.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/sponsor-animal.css">
 <!-- Main javascript -->
-<script src="./assets/js/main.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./assets/js/main.js"></script>
+
+
