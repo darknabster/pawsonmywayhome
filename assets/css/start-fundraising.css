@@ -1,0 +1,168 @@
+/*Fundraising*/
+.fundraising-banner {
+  background-image: url(/pawsonmywayhome/assets/images/fundraising-banner-img.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fundraising-banner .center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fundraising-banner .center-content h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 5em;
+}
+.fundraising-banner .center-content p {
+  color: white;
+  font-weight: 600;
+}
+.fundraising-banner .fundraising-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.fundraising-banner .fundraising-btns button {
+  font-weight: 600;
+  border: 1px solid #979797;
+  width: 310px;
+  line-height: 4;
+  font-size: 1.2em;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+.fundraising-banner .fundraising-btns .donate-now-btn {
+  background-color: #bd10e0;
+  color: white;
+}
+.fundraising-banner .fundraising-btns .donate-now-btn:hover {
+  background-color: #bd10e000;
+  border: 1px solid #bd10e0;
+  transition: all 0.5s;
+  color: #ffffff90;
+}
+.fundraising-banner .fundraising-btns .donate-now-btn:hover {
+  background-color: #bd10e000;
+  border: 1px solid #bd10e0;
+  transition: all 0.5s;
+  color: #ffffff90;
+}
+.fundraising-banner .fundraising-btns .fundraiser-btn:hover {
+  background-color: #ffffff00;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+  color: #ffffff90;
+}
+.fundraising-banner .fundraising-btns .fundraiser-btn {
+  background-color: white;
+  color: #bd10e0;
+}
+
+.start-fund-cta {
+  margin: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+.start-fund-cta .point1 a, .start-fund-cta .point2 a, .start-fund-cta .point3 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.start-fund-cta .point1 a:hover, .start-fund-cta .point2 a:hover, .start-fund-cta .point3 a:hover {
+  opacity: 0.75;
+  transition: all 0.5s;
+}
+.start-fund-cta .point1, .start-fund-cta .point2 {
+  border-right: 1px solid #cecece;
+}
+.start-fund-cta .point1 a h3, .start-fund-cta .point2 a h3, .start-fund-cta .point3 a h3 {
+  color: #343a40;
+  font-weight: 600;
+}
+.start-fund-cta .point1 a img, .start-fund-cta .point2 a img, .start-fund-cta .point3 a img {
+  width: 80px;
+}
+
+.get-started .get-started-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.get-started .get-started-title h2 {
+  font-weight: 600;
+  font-size: 3em;
+  color: #565656;
+}
+.get-started .get-started-title p {
+  font-weight: 600;
+  color: #8a8a8a;
+}
+.get-started .get-started-container {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+.get-started .get-started-container img {
+  width: 200px;
+  border-radius: 100px;
+}
+.get-started .get-started-container .get-started-content {
+  padding: 20px;
+}
+.get-started .get-started-container .get-started-content button {
+  background-color: transparent;
+  border: 1px solid #b02ee0;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 250px;
+  line-height: 3;
+  color: #b02ee0;
+}
+
+.start-here-bg {
+  background-image: url(/paws/assets/images/get-started-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-here-banner .start-here-title h2 {
+  font-size: 3em;
+  font-weight: 600;
+}
+.start-here-banner .start-here-title h5 {
+  font-weight: 600;
+  color: white;
+}
+.start-here-banner .start-here-title .start-here-btns {
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 250px;
+  line-height: 3;
+  color: #b02ee0;
+  margin: 30px 0;
+}
+.start-here-banner .start-here-title .start-here-btns:hover {
+  background-color: transparent;
+  border: 1px solid #b02ee0;
+  color: #b02ee0;
+  transition: all 0.5s;
+}

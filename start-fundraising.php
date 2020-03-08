@@ -16,17 +16,119 @@
 			    </p>
 			</div>
 			<div class="fundraising-btns">
-				<button>
+				<button class="donate-now-btn">
 					DONTATE NOW
 				</button>
-				<button>
+				<button class="fundraiser-btn">
 					START A FUNDRAISER
 				</button>
 			</div>
 		</div>
 	</header>
 
-	<div class="placeholder"></div>
+	<!-- CTA -->
+	<div class="start-fund-cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 point1">
+					<a href="">
+						<img src="/paws/assets/images/bird.png">
+						<h3>POINT 1</h3>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 point2">
+					<a href="">
+						<img src="/paws/assets/images/cat.png">
+						<h3>POINT 2</h3>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 point3">
+					<a href="">
+						<img src="/paws/assets/images/dog.png">
+						<h3>POINT 3</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- GET STARTED -->
+	<div class="get-started">
+		<div class="container">
+			<div class="row">
+				<div class="get-started-title">
+					<h2>
+						Ideas to get you started
+					</h2>
+					<p>
+						There are a lot of ways to make good things happen
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 get-started-container">
+					<img src="/paws/assets/images/sponsor-pet4.jpg">
+					<div class="get-started-content">
+						<h3>Point 1</h3>
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+						</p>
+						<button class="start-fundraising-btns">START FUNDRAISING</button>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 get-started-container">
+					<img src="/paws/assets/images/sponsor-pet4.jpg">
+					<div class="get-started-content">
+						<h3>Point 2</h3>
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+						</p>
+						<button class="start-fundraising-btns">START FUNDRAISING</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 get-started-container">
+					<img src="/paws/assets/images/sponsor-pet4.jpg">
+					<div class="get-started-content">
+						<h3>Point 3</h3>
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+						</p>
+						<button class="start-fundraising-btns">START FUNDRAISING</button>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 get-started-container">
+					<img src="/paws/assets/images/sponsor-pet4.jpg">
+					<div class="get-started-content">
+						<h3>Point 4</h3>
+						<p>
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+						</p>
+						<button class="start-fundraising-btns">START FUNDRAISING</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- YOUR STORY STARTS HERE -->
+	<div class="start-here-banner start-here-bg">
+		<div class="container">
+			<div class="row">
+				<div class="start-here-title">
+					<h2>
+						Your story starts here
+					</h2>
+					<h5>
+						Find a cause you belive in and good things will happen
+					</h5>
+					<button class="start-here-btns">START FUNDRAISER</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<?php include("includes/footer.php");?>
 
     <!-- Optional JavaScript -->

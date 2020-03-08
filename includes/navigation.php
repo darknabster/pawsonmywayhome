@@ -17,32 +17,32 @@
                                 <ul class="header-dropdown-menu">
                                     <li><a href="./">Home</a></li>
                                     <li><a href="./about-us.php">About Us</a></li>
-                                    <li><a href="#">Hall Of Fame (2018)</a></li>                            
+                                    <li><a href="./hall-of-fame.php">Hall Of Fame (2018)</a></li>                            
                                     <li><a href="#">Events</a></li>  
                                     <li><span class="small">- No Dog Left Behind</span></li>
-                                    <li><span class="small">- Mixer 2018</span></li>
+                                    <li><span class="small"><a href="./hall-of-fame.php">- Mixer 2018</a></span></li>
                                     <li><span class="small">- 2019 Gold Tournament</span></li>
                                                             
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="header-dropdown-menu">
-                                    <li><a href="./start-fundraising">Fundraising</a></li>
-                                    <li><a href="#">Adoptable Animals</a></li>
-                                    <li><a href="#">How to Adopt</a></li>                            
-                                    <li><a href="#">How can i help?</a></li>                          
-                                    <li><a href="#">Fostering</a></li>
-                                    <li><a href="#">Surrendering you pet</a></li>
-                                    <li><a href="#">Volunteer Sign-Up</a></li>
+                                    <li><a href="./start-fundraising.php">Fundraising</a></li>
+                                    <li><a href="./adoptable-animals.php">Adoptable Animals</a></li>
+                                    <li><a href="./">How to Adopt</a></li>                            
+                                    <li><a href="./">How can i help?</a></li>                          
+                                    <li><a href="./">Fostering</a></li>
+                                    <li><a href="./">Surrendering you pet</a></li>
+                                    <li><a href="./volunteer-sign-up.php">Volunteer Sign-Up</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="header-dropdown-menu">
-                                    <li><a href="./sponsor-and-animal.php">Sponsor and Animal</a></li>
-                                    <li><a href="#">Warm Your Heart Successes</a></li>
-                                    <li><a href="#">Apply to Adopt Here</a></li>                            
-                                    <li><a href="#">Join our Foster Team!</a></li>                          
-                                    <li><a href="#">Never Forgotten</a></li>
+                                    <li><a href="./sponsor-an-animal.php">Sponsor an Animal</a></li>
+                                    <li><a href="./warm-your-heart.php">Warm Your Heart Successes</a></li>
+                                    <li><a href="./">Apply to Adopt Here</a></li>                            
+                                    <li><a href="./">Join our Foster Team!</a></li>                          
+                                    <li><a href="./gone-but-never-forgotten.php">Never Forgotten</a></li>
                                     <li><a href="#">Meet The Board</a></li>
                                 </ul>
                             </div>
@@ -53,7 +53,7 @@
 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Start Fundraising <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./start-fundraising.php">Start Fundraising <span class="sr-only">(current)</span></a>
                 </li>
 
             </ul>

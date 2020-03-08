@@ -1,0 +1,17 @@
+.dog-profile-main {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dog-profile-main .dog-profile-container, .dog-profile-main .fundraising-event-info, .dog-profile-main .charity-reg {
+	float: left;
+}
+.cause-banner-img {
+	background-image: url(/paws/assets/images/cause.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: 320px;
+}

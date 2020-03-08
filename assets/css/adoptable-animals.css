@@ -1,0 +1,291 @@
+.adoptable-animals-banner-bg {
+    background-image: url(/paws/assets/images/adoptable-animals-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.adoptable-animals-banner .adoptable-animal-title {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adoptable-animals-banner .adoptable-animal-title h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 4em;
+    text-align: center;
+}
+
+.adoptable-pets {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.adoptable-pets .adoptable-header {
+    margin-bottom: 50px;
+}
+.adoptable-pets .adoptable-header .adoptable-title {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.adoptable-pets .adoptable-header .adoptable-title h2 {
+    font-weight: 600;
+    text-align: center;
+}
+.adoptable-pets .adoptable-header .social-btns {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+.adoptable-pets .adoptable-header .social-btns button {
+    width: 100%;
+    padding: 0.75% 0;
+    margin: 0 0.5%;
+}
+.adoptable-pets .adoptable-header .social-btns .facebook-btns {
+    background-color: #3b5999;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #9396a5;
+}
+.adoptable-pets .adoptable-header .social-btns .email-btns {
+    background-color: #fff;
+    font-weight: 600;
+    color: #4a4a4a;
+    border-radius: 4px;
+    border: 1px solid #9396a5;
+}
+.adoptable-pets .adoptable-header .social-btns .twitter-btns {
+    background-color: #4098fc;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #9396a5;
+}
+
+/**/
+.carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__prev > label:nth-child(5), .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__next > label:nth-child(2), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__prev > label:nth-child(1), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__next > label:nth-child(3), .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__prev > label:nth-child(2), .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__next > label:nth-child(4), .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel__prev > label:nth-child(3), .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel__next > label:nth-child(5), .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel__prev > label:nth-child(4), .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel__next > label:nth-child(1) {
+     opacity: 1 !important;
+     z-index: 3;
+}
+ .carousel {
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+}
+ .carousel > input[type="radio"] {
+     position: absolute;
+     left: 0;
+     opacity: 0;
+     top: 0;
+}
+ .carousel > input[type="radio"]:checked ~ .carousel__items .carousel__item, .carousel > input[type="radio"]:checked ~ .carousel__prev > label, .carousel > input[type="radio"]:checked ~ .carousel__next > label {
+     opacity: 0;
+}
+ .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__items .carousel__item:nth-child(1) {
+     opacity: 1;
+}
+ .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__nav > label:nth-child(1) {
+     background: #ccc;
+     cursor: default;
+     pointer-events: none;
+}
+ .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__items .carousel__item:nth-child(2) {
+     opacity: 1;
+}
+ .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__nav > label:nth-child(2) {
+     background: #ccc;
+     cursor: default;
+     pointer-events: none;
+}
+ .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__items .carousel__item:nth-child(3) {
+     opacity: 1;
+}
+ .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__nav > label:nth-child(3) {
+     background: #ccc;
+     cursor: default;
+     pointer-events: none;
+}
+ .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel__items .carousel__item:nth-child(4) {
+     opacity: 1;
+}
+ .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel__nav > label:nth-child(4) {
+     background: #ccc;
+     cursor: default;
+     pointer-events: none;
+}
+ .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel__items .carousel__item:nth-child(5) {
+     opacity: 1;
+}
+ .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel__nav > label:nth-child(5) {
+     background: #ccc;
+     cursor: default;
+     pointer-events: none;
+}
+ .carousel__items {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     width: 100%;
+     height: 300px;
+     position: relative;
+}
+ .carousel__item {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+     transition: opacity 2s;
+     -webkit-transition: opacity 2s;
+}
+ .carousel__item img {
+     width: 100%;
+     vertical-align: middle;
+}
+ .carousel__prev > label, .carousel__next > label {
+     border: 1px solid #fff;
+     border-radius: 50%;
+     cursor: pointer;
+     display: block;
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
+     transition: all 0.3s ease;
+     -webkit-transition: all 0.3s ease;
+     opacity: 0;
+     z-index: 2;
+}
+ .carousel__prev > label:hover, .carousel__next > label:hover, .carousel__prev > label:focus, .carousel__next > label:focus {
+     opacity: 0.5 !important;
+}
+ .carousel__prev > label:before, .carousel__next > label:before, .carousel__prev > label:after, .carousel__next > label:after {
+     content: "";
+     position: absolute;
+     width: inherit;
+     height: inherit;
+}
+ .carousel__prev > label:before, .carousel__next > label:before {
+     background: linear-gradient(to top, #c60ee7 0%, #c60ee7 10%, rgba(51, 51, 51, 0) 10%), linear-gradient(to left, #c60ee7 0%, #c60ee7 10%, rgba(51, 51, 51, 0) 10%);
+     width: 60%;
+     height: 60%;
+     top: 20%;
+}
+ .carousel__prev > label {
+     left: 2%;
+}
+ .carousel__prev > label:before {
+     left: 35%;
+     top: 20%;
+     transform: rotate(135deg);
+     -webkit-transform: rotate(135deg);
+}
+ .carousel__next > label {
+     right: 2%;
+}
+ .carousel__next > label:before {
+     left: 10%;
+     transform: rotate(315deg);
+     -webkit-transform: rotate(315deg);
+}
+ .carousel__nav {
+     position: absolute;
+     bottom: 3%;
+     left: 0;
+     text-align: center;
+     width: 100%;
+     z-index: 3;
+}
+ .carousel__nav > label {
+     border: 1px solid #fff;
+     display: inline-block;
+     border-radius: 50%;
+     cursor: pointer;
+     margin: 0 0.125%;
+     width: 20px;
+     height: 20px;
+}
+ 
+/**/
+.adoptable-pets .adoptable-animals .col .tabs .tab input {
+     position: absolute;
+     opacity: 0;
+     z-index: -1;
+}
+.adoptable-pets .adoptable-animals .col {
+     flex: 1;
+     display: flex;
+}
+/*.adoptable-pets .adoptable-animals .col:last-child {
+     margin-left: 1em;
+}*/
+/* Accordion styles */
+.adoptable-pets .adoptable-animals .col .tabs {
+     overflow: hidden;
+     border-bottom: 1px solid;
+}
+.adoptable-pets .adoptable-animals .col .tabs .tab {
+     width: 100%;
+     color: #484848;
+     overflow: hidden;
+}
+.adoptable-pets .adoptable-animals .col .tabs .tab label {
+    margin-bottom: 0;
+}
+.adoptable-pets .adoptable-animals .col .tabs .tab .tab-label {
+     display: flex;
+     justify-content: space-between;
+     padding: 1em;
+     font-weight: bold;
+     cursor: pointer;
+    /* Icon */
+}
+/*.adoptable-pets .adoptable-animals .col .tabs .tab .tab-label:hover {
+     background: #1a252f;
+}*/
+.adoptable-pets .adoptable-animals .col .tabs .tab .tab-label::after {
+     content: "\276F";
+     width: 1em;
+     height: 1em;
+     text-align: center;
+     transition: all 0.35s;
+}
+.adoptable-pets .adoptable-animals .col .tabs .tab .tab-content {
+     max-height: 0;
+     padding: 0 1em;
+     color: #2c3e50;
+     background: white;
+     transition: all 0.35s;
+}
+ .tab-close {
+     display: flex;
+     justify-content: flex-end;
+     padding: 1em;
+     font-size: 0.75em;
+     background: #2c3e50;
+     cursor: pointer;
+}
+ .tab-close:hover {
+     background: #1a252f;
+}
+/*.adoptable-pets .adoptable-animals .col .tabs .tab input:checked + .tab-label {
+     background: #1a252f;
+}*/
+.adoptable-pets .adoptable-animals .col .tabs .tab input:checked + .tab-label::after {
+     transform: rotate(90deg);
+}
+.adoptable-pets .adoptable-animals .col .tabs .tab input:checked ~ .tab-content {
+     max-height: 100vh;
+     padding: 1em;
+}

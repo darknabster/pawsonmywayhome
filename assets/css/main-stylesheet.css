@@ -95,15 +95,15 @@ section .carousel-contents h1, section .carousel-contents p {
 }
 
 .carousel .carousel-item:first-of-type {
-    background-image: url(/pawsonmywayhome/assets/images/corgi-and-terrier-running.jpg);
+    background-image: url(/paws/assets/images/corgi-and-terrier-running.jpg);
 }
 
 .carousel .carousel-item:nth-of-type(2) {
-    background-image: url(/pawsonmywayhome/assets/images/dog.jpg);
+    background-image: url(/paws/assets/images/dog.jpg);
 }
 
 .carousel .carousel-item:last-of-type {
-    background-image: url(/pawsonmywayhome/assets/images/group-of-dogs.jpg);
+    background-image: url(/paws/assets/images/group-of-dogs.jpg);
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -193,7 +193,7 @@ section .carousel-contents h1, section .carousel-contents p {
 .featured-cause {
 	width: 100%;
   height: 100vh;
-  background-image: url(/pawsonmywayhome/assets/images/featured-cause-bg-img.jpg);
+  background-image: url(/paws/assets/images/featured-cause-bg-img.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -373,7 +373,7 @@ height: 600px;
 .about-us-main .about-banner {
   width: 100%;
   height: 611px;
-  background-image: url(/pawsonmywayhome/assets/images/about-us-banner-img.jpg);
+  background-image: url(/paws/assets/images/about-us-banner-img.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -529,31 +529,3 @@ footer .bottom-footer .accept-footer .follow-us .social-media-footer svg {
 	width: 40px;
 	margin: 0 5px;
 }
-
-
-
-/*Fundraising*/
-.fundraising-banner {
-  background-image: url(/pawsonmywayhome/assets/images/fundraising-banner-img.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fundraising-banner .center-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.fundraising-banner .center-content h1 {
-  color: white;
-  font-weight: 600;
-  font-size: 5em;
-}
-.fundraising-banner .fundraising-btns button {
-
-}
-bd0fe0

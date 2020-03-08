@@ -1,12 +1,13 @@
-
 /*SPONSORS AND ANIMALS*/
-.sponsor-bg {
-  background-image: url(../../assets/images/sponsor-and-animal-banner.jpg);
+.volunteer-bg {
+  background-image: url(/paws/assets/images/volunteer-sign-up.jpg);
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 600px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sponsor-bg .center-content {
   width: 100%;

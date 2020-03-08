@@ -3,7 +3,34 @@
 		<div class="container">
 			<p>Join <strong>25,456 patriots,</strong> organisations and caregivers on <span class="header-title font-weight-bolder">PawsOnMyWayHome</span></p>
 			<div class="logo-partners">
-				<img class="logo-partners-img" src="./assets/images/logo.png"><img class="logo-partners-img" src="./assets/images/logo.png"><img class="logo-partners-img" src="./assets/images/logo.png">
+				<div class="slider">
+					<div class="slide-track">
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider1.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider2.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider3.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider4.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider5.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider6.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider7.jpg" height="78" width="179" alt="" />
+						</div>
+						<div class="slide">
+							<img src="/paws/assets/images/start-fundraiser-logo-slider8.jpg" height="78" width="179" alt="" />
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="charity-work-container">
 				<p>Do you work for a charity?</p>

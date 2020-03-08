@@ -28,9 +28,15 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/log-in.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/donation.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/sponsor-animal.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/adoptable-animals.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/hall-of-fame.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/gone-but-never-forgotten.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/warm-your-heart.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/start-fundraising.css">
 <!-- Main javascript -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="./assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/sponsor-animal.js"></script>
 
 

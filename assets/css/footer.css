@@ -83,3 +83,47 @@ footer .bottom-footer .footer-title {
 .footer-copyright {
 	margin: auto;
 }
+
+ @keyframes scroll {
+	 0% {
+		 transform: translateX(0);
+	}
+	 100% {
+		 transform: translateX(calc(-250px * 7));
+	}
+}
+ .logo-partners .slider {
+	 background: whitesmoke;
+	 /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
+	 height: 78px;
+	 margin: auto;
+	 overflow: hidden;
+	 position: relative;
+	 width: 960px;
+}
+ .logo-partners .slider::before, .logo-partners .slider::after {
+	 /*background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);*/
+	 content: "";
+	 height: 100px;
+	 position: absolute;
+	 width: 200px;
+	 z-index: 2;
+}
+ .logo-partners .slider::after {
+	 right: 0;
+	 top: 0;
+	 transform: rotateZ(180deg);
+}
+ .logo-partners .slider::before {
+	 left: 0;
+	 top: 0;
+}
+ .logo-partners .slider .slide-track {
+	 animation: scroll 40s linear infinite;
+	 display: flex;
+	 width: calc(300px * 30);
+}
+ .logo-partners .slider .slide {
+	 height: 100px;
+	 width: 250px;
+}

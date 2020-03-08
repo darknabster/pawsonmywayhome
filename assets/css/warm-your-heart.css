@@ -1,0 +1,84 @@
+.warm-your-banner-bg {
+	background-image: url(/paws/assets/images/warm-your-heart-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.warm-your-banner .warm-your-title {
+	display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.warm-your-banner .warm-your-title h1 {
+	color: white;
+    font-size: 4em;
+    font-weight: 600;
+}
+.warm-your-content {
+	margin: 40px 0;
+}
+.warm-your-content .warm-your-content-title {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+}
+.warm-your-content .warm-your-content-title h2 {
+	font-size: 3em;
+    font-weight: 600;
+}
+
+/*GALLERY*/
+.warm-your-gallery {
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+.warm-your-gallery p {
+	font-weight: 600;
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+.warm-your-gallery .thumb .thumbnail img {
+	width: 100%;
+}
+ .page-header, hr {
+	border-color: #79ac00;
+}
+.warm-your-gallery .thumb {
+	margin-bottom: 10px;
+	padding-right: 5px;
+    padding-left: 5px;
+}
+
+.warm-your-gallery .thumbnail {
+	padding: 1px;
+	transition: all 0.3s ease-in-out;
+	/*border: 2px solid #436000;*/
+}
+.warm-your-gallery .thumbnail:hover, .warm-your-gallery .thumbnail:active, .warm-your-gallery .thumbnail:focus {
+	border-color: #79ac00;
+	outline: 0 !important;
+}
+/* a.thumbnail {
+	 border-color: #40484d;
+	 border-width: 2px;
+	 background-color: #1d2123;
+}*/
+.warm-your-gallery a.thumbnail:hover {
+	 border-color: #436000;
+}
+ .warm-your-gallery a.thumbnail:focus, .warm-your-gallery a.thumbnail:active {
+	 border-color: #79ac00;
+}
+
+ 
+
+ 
