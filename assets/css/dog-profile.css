@@ -1,0 +1,115 @@
+.cover-photo-container{
+	width: 80%;
+    margin: auto;
+}
+
+.cover-photo{
+	border: 1px solid black;
+	padding: 200px;
+	background: url('../images/dog-cover-profile.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.details-main-container {
+	background-color: #ececec;
+}
+
+.details-container {
+	width: 80%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    /*border-bottom: 1px solid;*/
+}
+
+.owner-container{
+	display: grid;
+    justify-content: inherit;
+    width: 100%;
+}
+
+.owner-img {
+	height: 57px;
+    margin: auto;
+}
+
+.owner-name {
+	font-size: 12px;
+}
+
+.owner-title-header {
+	font-size: 25px;
+    font-weight: bolder;
+}
+
+.owner-tagline {
+	font-size: 15px;
+    margin-top: -11px;
+}
+
+.owner-more-event-details {
+	font-size: 12px;
+}
+.dog-profile-btn {
+    background: none;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bolder;
+
+}
+
+.dog-profile-btn.btn-share {
+	border: 1px solid #00000;
+	color: #bd0fe0;
+	
+}
+
+.dog-profile-btn.btn-adopt {
+	border: 1px solid #ff9800;
+	color: black;
+	background-color: #ff9800;
+}
+
+.dog-profile-header-separator{
+	border-color: #9E9E9E;
+}
+
+.dog-profile-title {
+	color: #6f6d6d;
+}
+.dog-profile-details {
+	margin: 10px 100px 50px 100px;
+    font-size: 12px;
+}
+
+.dog-profile-photo {
+	height: 250px;
+}
+.adopt-main-container {
+	display: none;
+}
+
+.adoption-details {
+	margin-bottom: 50px;
+}
+
+.btn-adoption-container {
+	margin: 50px 0 50px 0px;	
+}
+
+.btn-adoption {
+	color: #fff;
+    background-color: #bd0fe0;
+    border-color: #bd0fe0;
+    width: 150px;
+
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    font-weight: bolder;
+}
+
