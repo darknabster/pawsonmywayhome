@@ -88,8 +88,35 @@
 .dog-profile-photo {
 	height: 250px;
 }
+.profile-main-container {
+	display: none
+}
 .adopt-main-container {
 	display: none;
+	width: 80%;
+    margin: auto;
+}
+
+.profile-main-container.active, .adopt-main-container.active {
+	display: block;
+}
+
+.adoption-form-1, .adoption-form-2, .adoption-form-3{
+	display: none;
+}
+
+.adoption-form-1.active, .adoption-form-2.active, .adoption-form-3.active {
+	display: block;
+}
+
+.adoption-form .sub-details {
+	color: #bd0de0;
+    font-size: 12px;
+}
+
+.donation-check {
+	transform: scale(1.5);
+	margin-left: 20px;
 }
 
 .adoption-details {
