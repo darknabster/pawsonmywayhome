@@ -1,0 +1,14 @@
+.registration-main-container {
+	width: 40%;
+    margin: auto;
+    background: #FFFF;
+    padding: 60px 60px 20px 60px;
+    margin-top: -100px;
+}
+
+.btn-join-foster-team {
+	color: #fff;
+    background-color: #bd0fe0;
+    border-color: #bd0fe0;
+    width: 150px;
+}

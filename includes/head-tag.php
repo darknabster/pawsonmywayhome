@@ -34,6 +34,8 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/warm-your-heart.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/start-fundraising.css">
 <link rel="stylesheet" type="text/css" href="./assets/css/dog-profile.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/join-foster-team.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/board-directors.css">
 <!-- Main javascript -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

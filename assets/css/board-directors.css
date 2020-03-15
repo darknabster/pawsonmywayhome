@@ -1,0 +1,90 @@
+.board-directors-main-container{
+	width: 50%;
+	margin: auto;
+	margin-top: -100px;
+}
+
+.board-bg {
+    background-image: url(../../assets/images/board-director-head.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+.board-bg .center-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+}
+
+.board-bg .center-content h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 4em;
+}
+
+.board-directors-top .director-container{
+	width: 300px;
+}
+
+.board-directors-top .director-container img{
+	width: 100%;
+}
+
+.board-directors-top {
+	display: flex;
+    justify-content: center;
+}
+
+.board-directors-top .director-container {
+	display: grid;
+	justify-items: center;
+	margin: 20px;
+}
+
+.board-directors-top .director-container label {
+	margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.board-directors-top .director-container span {
+	margin-top: -10px;
+    font-size: 12px;
+}
+
+
+.board-directors-bottom .director-container{
+	width: 150px;
+}
+
+.board-directors-bottom .director-container img{
+	width: 100%;
+}
+
+.board-directors-bottom {
+	display: flex;
+    justify-content: center;
+}
+
+.board-directors-bottom .director-container {
+	display: grid;
+	justify-items: center;
+	margin: 20px;
+}
+
+.board-directors-bottom .director-container label {
+	margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.board-directors-bottom .director-container span {
+	margin-top: -10px;
+    font-size: 12px;
+}
